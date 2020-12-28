@@ -1,8 +1,8 @@
-// Program 3
-var firstSubject = parseInt( prompt("Enter Marks of First Subject") );
-var secondSubject = parseInt( prompt("Enter Marks of Second Subject") );
-var thirdSubject = parseInt( prompt("Enter Marks of third Subject") );
-var average = firstSubject + secondSubject + thirdSubject / 3 ;
-if( average>80 ){
-    console.log( "you are above standard, Admission Granted!");
+// Program 4
+var userNumber = parseInt( prompt("Input a Number") );
+if( userNumber % 2 == 0   ){
+    alert( "Number is Even");
+}
+ else{
+    alert( "Number is odd");
 }
