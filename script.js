@@ -1,3 +1,3 @@
-var C = prompt("Enter Temperature in Celcius");
-var output = F = 9/5 * C + 32;
-alert(output);
+// Program 2
+var height = parseInt( prompt("Enter Height in Inches") );
+console.log("height in centimeters =", 2.54 * height);
